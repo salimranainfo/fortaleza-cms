@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_homepage_clients",
+  "info": {
+    "displayName": "Clients"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "client_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.image-link"
+    }
+  }
+}

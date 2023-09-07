@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_hours",
+  "info": {
+    "displayName": "Hours"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "week_days": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

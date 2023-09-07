@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_image_links",
+  "info": {
+    "displayName": "Image Link"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

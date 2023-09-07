@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_global_contact_infos",
+  "info": {
+    "displayName": "Contact Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button-link"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button-link"
+    },
+    "website": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button-link"
+    }
+  }
+}
