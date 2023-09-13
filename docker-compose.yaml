@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  cms:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:1337:1337"
+    volumes:
+      - /home/nicolas/backup/uploads:/usr/src/app/public/uploads
+      - /home/nicolas/backup/dbfile:/usr/src/app/.tmp
+    networks:
+      - backend
+    container_name: cms
+    restart: always
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: always
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
